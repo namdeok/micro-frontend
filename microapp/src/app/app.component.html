@@ -25,8 +25,8 @@
 
     </div>
     <div class="col-3">
-      <label for="sel1">Filter react table:</label>
-      <select class="form-control" (change)="filterReact($event.target.value)" id="sel1">
+      <label for="sel2">Filter react table:</label>
+      <select class="form-control" (change)="filterReact($event.target.value)" id="sel2">
         <option value="0"></option>
         <option *ngFor="let rec of languages" value={{rec}}>
           {{rec}}
